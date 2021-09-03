@@ -1,6 +1,8 @@
 version: 0.2
 
 env:
+  variables:
+    AWS_REGION: "us-west-2"
   secrets-manager:
     AWS_ACCESS_KEY_ID: prod/amplify-s3-pipeline-buildkey:aws_access_key_id
     AWS_SECRET_ACCESS_KEY: prod/amplify-s3-pipeline-buildkey:aws_secret_access_key
@@ -8,6 +10,7 @@ env:
 phases:
   build:
     commands:
+       - ls -al
        - npm install -g @aws-amplify/cli
        - chmod a+x headless-configure.sh
        - chmod a+x headless-publish.sh

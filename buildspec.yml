@@ -12,6 +12,7 @@ phases:
     commands:
        - ls -al
        - npm install -g @aws-amplify/cli
+       - npm install
        - chmod a+x headless-configure.sh
        - chmod a+x headless-publish.sh
        - ./headless-configure.sh

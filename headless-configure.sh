@@ -17,7 +17,7 @@ AWSCLOUDFORMATIONCONFIG="{\
 \"region\":\"us-west-2\"\
 }"
 AMPLIFY="{\
-\"projectName\":\"headlessProjectName\",\
+\"projectName\":\"amplifys3codepipelin\",\
 \"envName\":\"dev\",\
 \"defaultEditor\":\"code\"\
 }"

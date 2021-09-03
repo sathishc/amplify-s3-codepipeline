@@ -14,7 +14,7 @@ AWSCLOUDFORMATIONCONFIG="{\
 \"profileName\":\"default\",\
 \"accessKeyId\":$AWS_ACCESS_KEY\",\
 \"secretAccessKey\":$AWS_SECRET\",\
-\"region\":\"us-east-1\"\
+\"region\":\"us-west-2\"\
 }"
 AMPLIFY="{\
 \"projectName\":\"headlessProjectName\",\

@@ -18,6 +18,7 @@ AWSCLOUDFORMATIONCONFIG="{\
 }"
 AMPLIFY="{\
 \"projectName\":\"headlessProjectName\",\
+\"envName\":\"dev\",\
 \"defaultEditor\":\"code\"\
 }"
 FRONTEND="{\
@@ -29,7 +30,7 @@ PROVIDERS="{\
 \"awscloudformation\":$AWSCLOUDFORMATIONCONFIG\
 }"
 
-amplify configure project \
+amplify init \
 --amplify $AMPLIFY \
 --frontend $FRONTEND \
 --providers $PROVIDERS \
